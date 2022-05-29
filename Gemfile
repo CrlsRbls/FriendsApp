@@ -15,7 +15,6 @@ gem "stimulus-rails"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem 'devise', '~> 4.8', '>= 4.8.1'
 # gem "sqlite3", "~> 1.4"
-# gem 'rails_12factor', '0.0.2'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
