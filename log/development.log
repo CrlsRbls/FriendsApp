@@ -32679,3 +32679,4 @@ Processing by FriendsController#new as HTML
 Completed 200 OK in 25ms (Views: 18.4ms | ActiveRecord: 0.2ms | Allocations: 8177)
 
 
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m

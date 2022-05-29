@@ -4,16 +4,18 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.1.2"
 
 gem "rails", "~> 7.0.3"
-
 gem "puma", "~> 5.0"
 gem "turbo-rails"
 gem "jbuilder"
+gem 'pg', '~> 1.3', '>= 1.3.5'
 gem "bootsnap", require: false
 gem "sprockets-rails"
 gem "importmap-rails"
 gem "stimulus-rails"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem 'devise', '~> 4.8', '>= 4.8.1'
+# gem "sqlite3", "~> 1.4"
+# gem 'rails_12factor', '0.0.2'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -29,7 +31,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  gem "sqlite3", "~> 1.4"
+ 
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
@@ -40,8 +42,7 @@ end
 
 group :production do
 
-  gem 'pg', '~> 1.3', '>= 1.3.5'
-  # gem 'rails_12factor', '0.0.2'
+  
 
 end
 
