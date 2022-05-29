@@ -7,7 +7,7 @@ gem "rails", "~> 7.0.3"
 gem "puma", "~> 5.0"
 gem "turbo-rails"
 gem "jbuilder"
-gem 'pg', '~> 1.3', '>= 1.3.5'
+gem 'pg'
 gem "bootsnap", require: false
 gem "sprockets-rails"
 gem "importmap-rails"
